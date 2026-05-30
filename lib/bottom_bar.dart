@@ -49,7 +49,7 @@ class _NavBarState extends State<NavBar> {
                     duration: const Duration(milliseconds: 200),
                     decoration: BoxDecoration(
                       color: isActive
-                          ? Colors.blue.withOpacity(0.15)
+                          ? Colors.purple.withOpacity(0.15)
                           : Colors.transparent,
                       shape: BoxShape.circle,
                     ),
@@ -60,7 +60,7 @@ class _NavBarState extends State<NavBar> {
                         children: [
                           Icon(
                             _icons[index],
-                            color: isActive ? Colors.blue : Colors.white38,
+                            color: isActive ? Colors.purpleAccent : Colors.white38,
                             size: 30,
                           ),
                         ],
